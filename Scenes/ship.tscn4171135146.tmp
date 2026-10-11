@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://eprowtt7h5c2"]
+
+[ext_resource type="Script" uid="uid://baexgj84rbcr6" path="res://Scripts/ship.gd" id="1_78pfh"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4klyy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4klyy"]
+
+[node name="Ship" type="RigidBody3D" unique_id=129970679]
+gravity_scale = 0.0
+script = ExtResource("1_78pfh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1292300756]
+mesh = SubResource("BoxMesh_4klyy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=919639901]
+shape = SubResource("BoxShape3D_4klyy")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=324632868]
+transform = Transform3D(1, 0, 0, 0, 0.9993539, 0.035941236, 0, -0.035941236, 0.9993539, 0, 1.3559911, 3.1779377)

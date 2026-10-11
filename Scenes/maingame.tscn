@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://b7g03bo4nk3ny"]
+
+[ext_resource type="Script" uid="uid://d10b7urq86hx7" path="res://Scripts/maingame.gd" id="1_ehbmp"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4klyy"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4klyy"]
+
+[node name="Node3D" type="Node3D" unique_id=1815360221]
+script = ExtResource("1_ehbmp")
+
+[node name="Playground" type="StaticBody3D" parent="." unique_id=1596119633]
+transform = Transform3D(9.813093, 0, 0, 0, 0.095843196, 0, 0, 0, 8.446988, 0, -0.39259863, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Playground" unique_id=1014065891]
+mesh = SubResource("BoxMesh_4klyy")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Playground" unique_id=852059893]
+shape = SubResource("BoxShape3D_4klyy")
+
+[node name="lights" type="Node3D" parent="." unique_id=559546320]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="lights" unique_id=1617181859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.031964302, 3.476468, 0.1542635)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="lights" unique_id=264861829]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.031964302, 2.5551386, 10.208525)

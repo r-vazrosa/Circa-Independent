@@ -1,0 +1,12 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1791752712
+icon.svg::CompressedTexture2D::3422493482733554438::1787162606::1788096853::1::::<><><>0<>0<>20fed011be8f0753fa70bdab6fbfd855<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://Assets/::1788096815
+temp.txt::TextFile::-1::1787166241::0::1::::<><><>0<>0<><>::
+::res://Scenes/::1790356357
+maingame.tscn::PackedScene::4646417949169032194::1790352144::0::1::::<><><>0<>0<><>::uid://d10b7urq86hx7::::res://Scripts/maingame.gd
+ship.tscn::PackedScene::312779416626057391::1790356357::0::1::::<><><>0<>0<><>::uid://baexgj84rbcr6::::res://Scripts/ship.gd
+::res://Scripts/::1790356358
+maingame.gd::GDScript::9035900369418333842::1790352109::0::1::::<>Node3D<><>0<>0<><>::
+ship.gd::GDScript::2396085925335482465::1790354954::0::1::::<>RigidBody3D<><>0<>0<><>::
+ship_movement_utils.gd::GDScript::7229420040150198205::1790356358::0::1::::<>Node<><>0<>0<><>::
